@@ -1,0 +1,150 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lobster&family=Montserrat:wght@700&family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section  start */
+header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1321px;
+    height: 646px;
+    padding: 50px;
+}
+.full-header{
+    display: flex;
+    background-color: #09143b;
+    align-items: center;
+    padding-left: 106px;
+    padding-top: 111px;
+    border-radius: 30px;
+}
+.header-left{
+    width: 50%;
+    position: relative;
+    bottom: 111px;
+}
+.header-title{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 111px;
+}
+.header-text{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn{
+    width: 187px;
+    height: 56px;
+    color: white;
+    background-color: #DD0000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 25px;
+    border-radius: 5px;
+    margin-top: -30px;
+}
+.arrow{
+    margin-left: 10px;
+}
+.header-right{
+    width: 50%;
+}
+.header-right img{
+    width: 581px;
+    height: 613px;
+    position: relative;
+    width: 100%;
+    bottom: 35px;
+    right: 80px;
+}
+/* hearder end  */
+/* main part start */
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1321px;
+    padding: 50px;
+}
+ /* menu bar part start  */
+.left-part{
+    display: flex;
+    flex-direction: column;
+    height: 312px;
+    width: 400px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.left-same{
+    padding: 18px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.left-same a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#left-dif{
+    background-color: #DD0000;
+}
+#left-dif a{
+    color: #FFFFFF;
+}
+ /* menu bar part end  */
+ /* player blog section start  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player-title button{
+    border-radius: 5px;
+    font-size: 16px;
+}
+.player-title, .player-info{
+    padding: 10px;
+}
+
+.icon-left{
+    margin-right: 20px;
+}
+/* player blog section end  */
+
+/* footer section start  */
+footer{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #161616;
+    color: white;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.contact-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-sec p{
+    margin: 20px;
+}
+.contact-sec a{
+    text-decoration: none;
+    color: #B9B9B9;
+}
+/* footer section end  */
