@@ -78,8 +78,6 @@ header{
 }
  /* menu bar part start  */
 .left-part{
-    display: flex;
-    flex-direction: column;
     height: 312px;
     width: 400px;
     background-color: #161616;
@@ -88,7 +86,9 @@ header{
 }
 .left-same{
     padding: 18px;
-    margin: 20px;
+    width: 312px;
+    margin: 18px;
+    margin-top: 20px;
     border-radius: 10px;
 }
 .left-same a{
@@ -148,3 +148,41 @@ hr{
     color: #B9B9B9;
 }
 /* footer section end  */
+
+
+/* For mobile users */
+@media screen and (max-width: 667px) {
+
+
+}
+
+/* For Tab Users */
+@media screen and (min-width:668px) and (max-width: 1200px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+ .left-part{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: #FFFFFF;
+ }
+ .left-same{
+    height: 80px;
+    width: 300px;
+    font-size: 12px;
+ }
+ .players{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-row-gap: 10px; */
+ }
+ .player{
+    margin: 10px;
+ }
+}
