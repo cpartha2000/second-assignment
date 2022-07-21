@@ -117,15 +117,27 @@ header{
     padding: 10px;
 }
 
-.icon-left{
-    margin-right: 20px;
+#l-p-flag{
+    padding-left: 40px;
+}
+#flag{
+    margin-left: 20px;
+}
+.for-flag{
+    display: flex;
+   text-align: center;
+   align-items: center;
+}
+.flag-text{
+    text-align: center;
 }
 .flag-vs{
-    padding: 20px;
-    text-align: center;
+    height: 80px;
+    width: 80px;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 50px;
 }
 /* player blog section end  */
 
